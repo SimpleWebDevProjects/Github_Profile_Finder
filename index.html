@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Explorer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>GitHub Explorer</h1>
+                    <p>Discover Developers & Projects</p>
+                </div>
+            </div>
+            <button class="info-btn" id="infoBtn">
+                <i class="fas fa-info"></i>
+            </button>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" id="usernameInput" placeholder="Enter GitHub username (e.g., AyushDubey23)">
+                <button class="search-btn" id="searchBtn"><i class="fas fa-search"></i> Search Profile</button>
+                <button class="clear-btn" id="clearBtn"><i class="fas fa-eraser"></i> Clear</button>
+            </div>
+        </div>
+
+        <div class="result-container" id="resultContainer">
+            <!-- Profile data will be inserted here -->
+        </div>
+
+        <div class="info-section" id="infoSection">
+            <h2><i class="fas fa-info-circle"></i> About GitHub Explorer</h2>
+            <div class="about-content">
+                <p>Welcome to <strong>GitHub Explorer</strong> - a powerful tool to search and explore GitHub profiles in depth. This application provides comprehensive insights into any GitHub user's activity, repositories, and contributions.</p>
+                <p>Built with modern web technologies, GitHub Explorer fetches real-time data directly from the GitHub API, ensuring you get the most up-to-date information about developers and their work.</p>
+                <p>This project was created by <strong>Ayush Dubey</strong> as a demonstration of web development skills and API integration. It showcases a clean, responsive UI with detailed user information.</p>
+
+                <a href="https://ayushdubey23.github.io/mpw" class="portfolio-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Visit Ayush Dubey's Portfolio
+                </a>
+            </div>
+
+            <h2><i class="fas fa-lightbulb"></i> GitHub & Programming Insights</h2>
+            <div class="facts-container" id="factsContainer">
+                <!-- Facts will be inserted here -->
+            </div>
+        </div>
+
+        <footer>
+            <p>Created with ❤️ by Ayush Dubey | GitHub Explorer &copy; 2025 | Portfolio: <a href="https://ayushdubey23.github.io/mpw" target="_blank">ayushdubey23.github.io/mpw</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
